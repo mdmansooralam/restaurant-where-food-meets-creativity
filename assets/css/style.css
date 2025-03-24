@@ -1,0 +1,245 @@
+:root{
+    --font-primary:"Inter", sans-serif;
+    --font-secondary:"David Libre", serif;
+
+    --color-primary:#EA6D27;
+    --color-secondary:#101A24;
+    --color-white:#fff;
+    --color-light:#F3F4F4;
+    --color-slate:#5C6574;
+
+
+    --lh-21:1.3125rem;
+    --lh-26:1.625rem;
+    --lh-29:1.8125rem;
+    --lh-40:2.5rem;
+    --lh-58:3.625rem;
+    --lh-65:4.0625rem;
+    --lh-72:4.5rem;
+
+    --text-12:.75rem;
+    --text-15:.9375rem;
+    --text-16:1rem;
+    --text-18:1.125rem;
+    --text-20:1.25rem;
+    --text-50:3.125rem;
+    --text-60:3.75rem;
+    --text-70:4.375rem;
+
+    --font-regular:400;
+    --font-medium:500;
+    --font-bold:700;
+
+    --rounded-0:0rem;
+    --rounded-4:.25rem;
+    --rounded-8:.5rem;
+    --rounded-10:.625rem;
+    --rounded-12:.75rem;
+    --rounded-16:1rem;
+    --rounded-20:1.25rem;
+    --rounded-28:1.75rem;
+
+
+
+}
+
+/* Typography */
+
+/* Font Familly */
+.primary-font{font-family: var(--font-primary);}
+.secondary-font{font-family: var(--font-secondary);}
+
+/* Font Color */
+.text-dark{color: var(--color-secondary);}
+.text-slate{color: var(--color-slate);}
+.text-white{color: var(--color-white);}
+
+/* Font weight */
+.font-regular{font-weight: var(--font-regular);}
+.font-medium{font-weight: var(--font-medium);}
+.font-bold{font-weight: var(--font-bold);}
+
+/* Font size */
+.text-12{font-size: var(--text-12);}
+.text-15{font-size: var(--text-15);}
+.text-16{font-size: var(--text-16);}
+.text-18{font-size: var(--text-18);}
+.text-20{font-size: var(--text-20);}
+.text-50{font-size: var(--text-50);}
+.text-60{font-size: var(--text-60);}
+.text-70{font-size: var(--text-70);}
+
+/* Line height */
+.lh-21{line-height: var(--lh-21);}
+.lh-26{line-height: var(--lh-26);}
+.lh-29{line-height: var(--lh-29);}
+.lh-40{line-height: var(--lh-40);}
+.lh-58{line-height: var(--lh-58);}
+.lh-65{line-height: var(--lh-65);}
+.lh-72{line-height: var(--lh-72);}
+
+/* Padding */
+.py-16{padding-block: 1rem;}
+.py-12{padding-block: .75rem;}
+
+.px-16{padding-inline: 1rem;}
+
+.pt-96{padding-top: 6rem;}
+
+.pb-58{padding-bottom: 3.625rem;}
+
+/* Margin */
+.inset-0{inset: 0;}
+
+.mx-auto{margin-inline: auto;}
+
+.mb-57{margin-bottom: 3.5625rem;}
+.mb-85{margin-bottom: 5.3125rem;}
+
+
+
+/* Width */
+.w-full{width: 100%;}
+.w-70\/1{width: 70%;}
+
+/* Height */
+.h-auto{height: auto;}
+.h-full{height: 100%;}
+img{object-fit: cover; object-position: center;}
+
+/* Position */
+.absolute{position: absolute;}
+.relative{position: relative;}
+.fixed{position: fixed;}
+
+/* z-index */
+.-z-index-1{z-index: -1;}
+.z-index-999{z-index: 999;}
+
+/* alignment */
+.align-center{text-align: center;}
+
+/* border */
+.border-none{border: none;}
+
+
+
+/* Background */
+
+.bg-white{background-color: var(--color-white);}
+.bg-light{background-color: var(--color-light);}
+.bg-primary{background-color: var(--color-primary);}
+.bg-dark{background-color: var(--color-secondary);}
+
+/* Button Primary */
+
+.btn-primary{
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    display: inline-block;
+    border-top-left-radius: var(--rounded-12);
+    border-top-right-radius: var(--rounded-4);
+    border-bottom-right-radius: var(--rounded-12);
+    border-bottom-left-radius: var(--rounded-4);
+    font-family: var(--font-secondary);
+    font-size: var(--text-20);
+    font-weight: var(--font-medium);
+
+}
+.btn-secondary{
+    padding: 0px 35px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    display: inline-block;
+    border-radius: var(--rounded-10);
+    font-family: var(--font-primary);
+    font-size: var(--text-16);
+    font-weight: var(--font-bold);
+    line-height: var(--lh-58);
+
+}
+
+/* Shadow */
+.shadow-1{box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);}
+.shadow-2{box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.07);}
+
+/* Border Radius */
+.rounded-10{border-radius: var(--rounded-10);}
+.rounded-20{border-radius: var(--rounded-20);}
+.rounded-28{border-radius: var(--rounded-28);}
+
+
+/* Flex Layout */
+.flex{display: flex;}
+.justify-between{justify-content: space-between;}
+.justify-center{justify-content: center;}
+.items-end{align-items: flex-end;}
+.items-start{align-items: flex-start;}
+.items-center{align-items: center;}
+.gap-30{gap: 1.875rem;}
+.gap-50{gap: 3.125rem;}
+
+
+
+.list-style-none{list-style-type: none;}
+.overflow-hidden{overflow: hidden;}
+
+html{font-family: var(--font-primary);}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{text-decoration: none;}
+
+
+
+/* Container */
+
+.container{
+    max-width: 1152px;
+    margin-inline: auto;
+}
+
+@media (max-width:1200px){
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media (max-width:992px){
+    .container{
+        max-width: 720px;
+    }
+
+    .lg\:gap-20{gap: 1.25rem;}
+}
+
+@media (max-width:768px){
+    .container{
+        max-width: 550px;
+    }
+
+    .md\:absolute{position: absolute;}
+    .md\:h-screen{height: 100vh;}
+    .md\:bg-dark{background-color: var(--color-secondary);}
+    .md\:p-16{padding: 1rem;}
+    .md\:-right-full{right: -100%;}
+    .md\:top-0{top: 0;}
+    .md\:w-full{width: 100%;}
+    .md\:column{flex-direction: column;}
+    .md\:items-start{align-items: flex-start;}
+    .md\:w-full{width: 100%;}
+    .md\:fixed{position: fixed;}
+    .md\:z-index-999{z-index: 999;}
+
+}
+
+@media (max-width:575px){
+    .container{
+        max-width: 100%;
+        padding-inline: 1rem;
+    }
+}
