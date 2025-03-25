@@ -16,21 +16,123 @@
 </head>
 <body>
     <!-- Header Start -->
-    <header>
+    <header class="pt-56 lg:pt-0 lg:h-84 flex items-center lg:fixed w-full z-index-999 lg:bg-white lg:top-0">
+        <div class="container grow-1">
+            <nav class="flex justify-between items-center">
+                <a href="#"><img class="lg:w-70/1" src="/assets/images/site-logo.svg" alt="Logo"></a>
+                <ul class="menu flex gap-45 list-style-none lg:fixed lg:-right-full lg:w-full lg:h-screen lg:z-index-999 lg:column lg:items-center lg:top-84 lg:p-16 lg:bg-dark">
+                    <li><a class="hover-text-primary text-16 lh-29 primary-font font-regular text-dark lg:text-white" href="#">Menu</a></li>
+                    <li><a class="hover-text-primary text-16 lh-29 primary-font font-regular text-dark lg:text-white" href="#">Events</a></li>
+                    <li><a class="hover-text-primary text-16 lh-29 primary-font font-regular text-dark lg:text-white" href="#">Gallery</a></li>
+                    <li><a class="hover-text-primary text-16 lh-29 primary-font font-regular text-dark lg:text-white" href="#">About</a></li>
+                    <li><a class="hover-text-primary text-16 lh-29 primary-font font-regular text-dark lg:text-white" href="#">Contact</a></li>
+                </ul>
 
+                <div class="flex items-center gap-45 sm:gap-20">
+                    <a class="btn btn-nav lg:px-10 lg:py-8 shrink-0 lg:text-16 lg:lh-29 " href="#">Book a table </a>
+                    <i class="fa-solid fa-bars text-30 text-dark display-none lg:display-block toggler pointer"></i>
+                </div>
+            </nav>
+        </div>
     </header>
     <!-- Header End -->
 
     <!-- main start -->
-    <main>
+    <main class="mt-84">
+        <section class="hero py-12">
 
+        </section>
     </main>
     <!-- main end -->
 
     <!-- Footer Start -->
-     <footer>
+    <footer>
+        <div class="container">
+            <div class="top-panel pt-96 pb-58 md:py-40 relative rounded-28 overflow-hidden mb-85 md:mb-32 px-16">
+                <img class="absolute inset-0 -z-index-1 h-full" src="/assets/images/footer-image.png" alt="">
+                <div class="w-70/1 md:w-full mx-auto align-center">
+                    <h3 class="font-bold text-50 lh-58 text-white secondary-font mb-57 md:text-30 md:lh-40 lg:text-40 ">Get Or Promo Code by Subscribing
+                        To our Newsletter</h3>
+                    <div class="bg-white rounded-20 py-12 px-16 flex items-center">
+                        <input class="grow-1 border-none primary-font font-regular text-18 md:w-full" type="email"
+                            placeholder="Enter your email">
+                        <button class="btn-footer md:p-10 md:lh-29" href="#">Subscribe</button>
+                    </div>
 
-     </footer>
+                </div>
+
+            </div>
+            <div class="bottom-panel relative overflow-hidden">
+                <img class="absolute opacity-20 -rotate-75 left-30 sm:left-0  -z-index-1 sm:w-full" src="/assets/images/pan.png" alt="">
+                <div class="flex items-first-baseline xl:column mb-40">
+                    <div class="w-40/1 xl:w-full xl:mb-20">
+                        <div class="mb-20 w-80/1 xl:align-center xl:mx-auto md:w-full">
+                            <a class="mb-20 inline-block" href="#"><img src="/assets/images/site-logo.svg" alt="Logo"></a>
+                            <p class="text-slate font-regular text-16 lh-29">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore .<a class="text-slate underline hover-text-dark" href="#">Learn more</a></p>
+                        </div>
+                        <div class="text-16 font-regular text-slate lh-29 xl:align-center md:w-full">
+                            <p class="text-12 font-bold lh-40 text-dark sm:align-center">OPENING HOURS</p>
+                            <div class="flex gap-45 xl:justify-center sm:column sm:items-center sm:gap-20 sm:align-center">
+                                <div>
+                                    <p>Monday - Friday</p>
+                                    <p>8:00 am to 9:00 pm</p>
+                                </div>
+                                <div>
+                                    <p>Saturday</p>
+                                    <p>8:00 am to 9:00 pm</p>
+                                </div>
+                                <div>
+                                    <p>Sunday</p>
+                                    <p>CLOSED</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="flex grow-1 xl-w-full xl:w-full xl:justify-between sm:column sm:items-center  sm:align-center">
+                        <div class="ml-39 xl:ml-0">
+                            <p class="text-12 lh-40 font-bold text-dark">NAVIGATION</p>
+                            <ul class="list-style-none">
+                                <li><a class="hover-text-dark text-slate font-regular text-16 lh-40" href="#">Menu</a></li>
+                                <li><a class="hover-text-dark text-slate font-regular text-16 lh-40" href="#">About us</a></li>
+                                <li><a class="hover-text-dark text-slate font-regular text-16 lh-40" href="#">Contact us</a></li>
+                                <li><a class="hover-text-dark text-slate font-regular text-16 lh-40" href="#">Main dishes</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="ml-104 xl:ml-0">
+                            <p class="text-12 lh-40 font-bold text-dark">DISHES</p>
+                            <ul class="list-style-none">
+                                <li><a class="hover-text-dark text-slate font-regular text-16 lh-40" href="#">Fish & Viggies</a></li>
+                                <li><a class="hover-text-dark text-slate font-regular text-16 lh-40" href="#">Tofu Chili</a></li>
+                                <li><a class="hover-text-dark text-slate font-regular text-16 lh-40" href="#">Egg & Cocumber</a></li>
+                                <li><a class="hover-text-dark text-slate font-regular text-16 lh-40" href="#">Lumpia w/Suace</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="ml-68 xl:ml-0 sm:mt-20">
+                            <p class="text-12 lh-40 font-bold text-dark">FOLLOW US</p>
+                            <ul class="list-style-none flex gap-15">
+                                <li class=""><a class="w-40 aspect-1/1 border-1 flex items-center justify-center rounded-full text-dark text-20 hover-bg-primary" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li class=""><a class="w-40 aspect-1/1 border-1 flex items-center justify-center rounded-full text-dark text-20 hover-bg-primary" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li class=""><a class="w-40 aspect-1/1 border-1 flex items-center justify-center rounded-full text-dark text-20 hover-bg-primary" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="flex justify-between mb-234 md:mb-48 mt-20 pt-35 border-top-1 lg:column lg:items-center">
+                    <p class="font-regular text-slate lh-29 lg:align-center">© 2022 Restaurants. All Right Reserved. Designed by <span class="font-bold">Isaac</span></p>
+                    <div class="flex gap-15 sm:column sm:gap-0 lg:align-center">
+                        <a class="hover-text-dark font-regular text-slate lh-29" href="#">Terms of Service</a>        
+                        <a class="hover-text-dark font-regular text-slate lh-29" href="#">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- Footer End -->
+
+    <script src="/assets/js/script.js"></script>
 </body>
 </html>
